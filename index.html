@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Rei do 25</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <nav class="navbar">
+    <div class="logo">🛍️ Rei do 25</div>
+
+   
+
+    <div class="cart">🛒</div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    
+  </div>
+</section>
+
+<!-- BUSCA -->
+<div class="oi">
+    <h1>Bem-vindo à loja REI DO 25 </h1>
+<p>Confira nossos produtos disponíveis</p>
+</div>
+
+<div class="search-area">
+  <input type="text" id="search" placeholder="Buscar produtos...">
+  <button onclick="searchProducts()">🔍</button>
+</div>
+
+
+<!-- FILTROS -->
+<div class="filters">
+  <button onclick="filterCategory('todos')">Todos</button>
+  <button onclick="filterCategory('eletronicos')">Eletrônicos</button>
+  <button onclick="filterCategory('roupas')">Roupas</button>
+  <button onclick="filterCategory('acessorios')">Acessórios</button>
+</div>
+
+<!-- PRODUTOS -->
+<section id="produtos" class="produtos">
+
+  <!-- ELETRÔNICOS -->
+  <div class="categoria">
+    <h2 class="produto-card" data-category="eletronicos">Eletrônicos</h2>
+
+    <div class="produtos-grid">
+      <div class="produto-card" data-category="eletronicos">
+        <img src="assents/04.jpeg">
+        <h3>Lâmpada giratória</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="eletronicos">
+        <img src="assents/12.jpeg">
+        <h3>Caixinha de som</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="eletronicos">
+        <img src="assents/13.jpeg">
+        <h3>Caixinha de som Bluetooth</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="eletronicos">
+        <img src="assents/17.jpeg">
+        <h3>Carregador TV Box</h3>
+        <span>R$ 25,00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROUPAS -->
+  <div class="categoria">
+    <h2 class="produto-card" data-category="roupas">Roupas</h2>
+
+    <div class="produtos-grid">
+      <div class="produto-card" data-category="roupas">
+        <img src="./assents/47.jpeg">
+        <h3>Pijama feminino infantil</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="roupas">
+        <img src="./assents/37.jpeg">
+        <h3>Pijama feminino infantil</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="roupas">
+        <img src="./assents/30.jpeg">
+        <h3>Top feminino adulto</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="roupas">
+        <img src="./assents/28.jpeg">
+        <h3>Short térmico masculino</h3>
+        <span>R$ 25,00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACESSÓRIOS -->
+  <div class="categoria">
+    <h2  class="produto-card" data-category="acessorios">Acessórios</h2>
+
+    <div class="produtos-grid">
+      <div class="produto-card" data-category="acessorios">
+        <img src="assents/01.jpeg">
+        <h3>Produto</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="acessorios">
+        <img src="assents/02.jpeg">
+        <h3>Cobre bolo</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="acessorios">
+        <img src="assents/05.jpeg">
+        <h3>Jogo de churrasco</h3>
+        <span>R$ 25,00</span>
+      </div>
+
+      <div class="produto-card" data-category="acessorios">
+        <img src="assents/08.jpeg">
+        <h3>Porta azeite e vinagre</h3>
+        <span>R$ 25,00</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Loja Rei do 25</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

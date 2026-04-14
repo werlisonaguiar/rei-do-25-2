@@ -1,0 +1,178 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial;
+ 
+}
+
+body{
+  background:#fff2f2;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  background:#1e1e1e;
+  color:rgb(255, 255, 255);
+}
+
+.nav-links{
+  display:flex;
+  gap:20px;
+  list-style:none;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+}
+
+/* HERO */
+.hero{
+  padding:60px;
+  text-align:center;
+  color:white;
+  background:linear-gradient(to right,#000000,#ffff00);
+ } 
+ 
+ 
+.search-area{
+  text-align:center;
+  margin:20px;
+  border-radius: 10px;
+}
+
+.search-area input{
+  padding:10px;
+  width:250px;
+  border-radius: 10px
+}
+
+.search-area button{
+  padding:10px;
+  cursor:pointer;
+  border-radius: 50%;
+}
+
+/* FILTROS */
+.filters{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.filters button{
+  padding:8px 15px;
+  margin:5px;
+  border:none;
+  cursor:pointer;
+}
+
+/* PRODUTOS */
+.produtos{
+  padding:20px;
+  text-align:center;
+}
+
+.produtos-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.produto-card{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.produto-card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.produto-card h3{
+  margin:10px 0;
+}
+
+.produto-card span{
+  display:block;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+
+.produto-card button{
+  padding:8px;
+  border:none;
+  background:green;
+  color:white;
+  cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:black;
+  color:white;
+}
+
+.categoria{
+  margin-bottom:40px;
+}
+
+.categoria h2{
+  margin:20px 0;
+  color:#8b0000;
+  border-left:5px solid gold;
+  padding-left:10px;
+}
+
+
+
+
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 5%;
+  height: 300px; /* altura da hero */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.818), rgba(179, 0, 0, 0.542)),
+              url("./assents/00.png") no-repeat center center;
+  background-size: cover;
+  color: #f9f7f7;
+ 
+}
+
+.hero-text {
+  flex: 1 1 400px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.hero-img img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.oi{
+    text-align: center;
+    
+}
