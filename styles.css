@@ -218,3 +218,11 @@ footer{
   font-size:12px;
   color:green;
 }
+
+
+.status{
+  display:block;
+  margin-top:5px;
+  font-size:12px;
+  color:green;
+}
